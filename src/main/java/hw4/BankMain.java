@@ -22,7 +22,7 @@ public class BankMain {
         PreparedStatement statement = null;
         
         try {
-        	String path = "jdbc:sqlite:database\\hw4db.db";
+        	String path = "jdbc:sqlite:hw4db.db";
         	connection = DriverManager.getConnection(path);
             
         	TableDatabase tableDb = new TableDatabase(connection, statement);
